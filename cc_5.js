@@ -77,3 +77,10 @@ console.log(`Calculate Tax:$${calculateTax(1000)}`)
 
 
 //Task 9-Function Expression
+
+let applyDiscount=function
+discount(price,discount){
+    return price-(price*.1);
+};//create discount function of 10%
+
+console.log(`Discount Applied:$${applyDiscount(100)}`)
