@@ -59,6 +59,7 @@ console.log(`Total Revenue:${totalRevenue}`)
 
 
 //Task 7-Find Method
+
 let customers = ["Alice", "Bob", "Charlie", "David"];//declare customers
 console.log(`Customers:${customers}`)
 
@@ -66,4 +67,10 @@ let locate=customers.find(customer=>customer==="Charlie");//locate Charlie
 console.log(`Locate:${locate}`)
 
 
+//Task 8-Function Declaration
 
+function calculateTax(amount){
+    return amount *.08;
+};//declare tax function
+
+console.log(`Calculate Tax:$${calculateTax(1000)}`)
