@@ -54,7 +54,7 @@ console.log(`Updated Inventory:${updatedInventory}`)
 let sales=[500,300,200,400];//declare sales
 console.log(`Sales:${sales}`)
 
-let totalRevenue=sales.reduce((a,b)=>a+b);//calculate sum of sales
+let totalRevenue=sales.reduce((sum,expense)=>sum+expense);//calculate sum of sales
 console.log(`Total Revenue:${totalRevenue}`)
 
 
@@ -74,3 +74,6 @@ function calculateTax(amount){
 };//declare tax function
 
 console.log(`Calculate Tax:$${calculateTax(1000)}`)
+
+
+//Task 9-Function Expression
