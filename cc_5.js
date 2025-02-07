@@ -30,3 +30,11 @@ console.log(`Cart Items Add Product to Beginning:${cartItems}`)
 
 cartItems.shift();//remove product from beginnng of list
 console.log(`Cart Items Remove Product from Beginning:${cartItems}`)
+
+//Task 4-Map Method
+
+let prices=[100,200,300];//declare prices
+console.log(`Prices:${prices}`)
+
+let discountedPrices=prices.map(price=>price*.9);//discount prices by 10%
+console.log(`Discounted Prices:${discountedPrices}`)
