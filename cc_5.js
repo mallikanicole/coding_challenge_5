@@ -12,3 +12,21 @@ let order={orderId: 12345, totalAmount: 150, status: "Processing",
     }   
 };
 displayOrder();
+
+
+//Task 3-Array Manipulation(push,pop,shift,unshift)
+
+let cartItems=["mango", "apple", "banana"];//declare products in cart
+console.log(`Cart Items:${cartItems}`)
+
+cartItems.push("peach");//add product to end of list
+console.log(`Cart Items Added Product to End:${cartItems}`)
+
+cartItems.pop();//remove product from end of list
+console.log(`Cart Items Remove Product from End:${cartItems}`)
+
+cartItems.unshift("strawberry");//add product to beginning of list
+console.log(`Cart Items Add Product to Beginning:${cartItems}`)
+
+cartItems.shift();//remove product from beginnng of list
+console.log(`Cart Items Remove Product from Beginning:${cartItems}`)
