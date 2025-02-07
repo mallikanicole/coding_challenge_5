@@ -49,3 +49,14 @@ console.log(`Inventory:${inventory}`)
 let updatedInventory=inventory.filter(inventory=>inventory>1);//filter out products with zero stock
 console.log(`Updated Inventory:${updatedInventory}`)
 
+//Task 6-Reduce Method
+
+let sales=[500,300,200,400];//declare sales
+console.log(`Sales:${sales}`)
+
+let totalRevenue=sales.reduce((a,b)=>a+b);//calculate sum of sales
+console.log(`Total Revenue:${totalRevenue}`)
+
+
+
+
