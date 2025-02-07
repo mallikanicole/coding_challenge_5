@@ -84,3 +84,11 @@ discount(price,discount){
 };//create discount function of 10%
 
 console.log(`Discount Applied:$${applyDiscount(100)}`)
+
+//Task 10-Arrow Function
+
+function calculatePoints(purchaseAmount){
+    return(purchaseAmount/10);
+};//create function to calculate points
+
+console.log(`Points Earned:${calculatePoints(100)}`)
