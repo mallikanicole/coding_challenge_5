@@ -58,5 +58,10 @@ let totalRevenue=sales.reduce((a,b)=>a+b);//calculate sum of sales
 console.log(`Total Revenue:${totalRevenue}`)
 
 
+//Task 7-Find Method
+let customers = ["Alice", "Bob", "Charlie", "David"]
+let locate=customers.find(customer=>customer==="Charlie");
+console.log(`Locate:${locate}`)
+
 
 
