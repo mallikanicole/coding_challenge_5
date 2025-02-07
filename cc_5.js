@@ -42,3 +42,10 @@ let discountedPrices=prices.map(price=>price*.9);//discount prices by 10%
 console.log(`Discounted Prices:${discountedPrices}`)
 
 //Task5-Filter Method
+
+let inventory=[5,0,12,8,0];//declare inventory
+console.log(`Inventory:${inventory}`)
+
+let updatedInventory=inventory.filter(inventory=>inventory>1);//filter out products with zero stock
+console.log(`Updated Inventory:${updatedInventory}`)
+
