@@ -59,8 +59,10 @@ console.log(`Total Revenue:${totalRevenue}`)
 
 
 //Task 7-Find Method
-let customers = ["Alice", "Bob", "Charlie", "David"]
-let locate=customers.find(customer=>customer==="Charlie");
+let customers = ["Alice", "Bob", "Charlie", "David"];//declare customers
+console.log(`Customers:${customers}`)
+
+let locate=customers.find(customer=>customer==="Charlie");//locate Charlie
 console.log(`Locate:${locate}`)
 
 
