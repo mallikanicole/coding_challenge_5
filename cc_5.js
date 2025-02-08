@@ -8,6 +8,16 @@ for(let x in customer){
 
 //Task 2-Object Methods
 
+let order= { orderId: 12345, totalAmount: 150, status: "Processing",//declare order details
+    displayOrder() {//add method in the object of order
+        console.log(`OrderID:${this.orderId}`);
+        console.log(`Total Amount:${this.totalAmount}`);
+        console.log(`Status:${this.status}`);
+    }
+};
+
+order.displayOrder();//calling method and logging details
+
 
 //Task 3-Array Manipulation(push,pop,shift,unshift)
 
