@@ -45,6 +45,7 @@ console.log(`Prices:${prices}`)
 let discountedPrices=prices.map(price=>price*.9);//discount prices by 10%
 console.log(`Discounted Prices:${discountedPrices}`)
 
+
 //Task5-Filter Method
 
 let inventory=[5,0,12,8,0];//declare inventory
@@ -88,6 +89,7 @@ discount(price,discount){
 };//create discount function of 10%
 
 console.log(`Discount Applied:$${applyDiscount(100)}`)
+
 
 //Task 10-Arrow Function
 
