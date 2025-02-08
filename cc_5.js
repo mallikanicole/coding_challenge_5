@@ -7,12 +7,6 @@ for(let x in customer){
 
 
 //Task 2-Object Methods
-let order={orderId: 12345, totalAmount: 150, status: "Processing",
-    displayOrder: function(){
-    console.log(`OrderID:${this.orderId} Total Amount:${this.totalAmount} Status:${this.status}`)
-    }   
-};
-displayOrder();
 
 
 //Task 3-Array Manipulation(push,pop,shift,unshift)
